@@ -8,10 +8,13 @@ public class Client {
     
     private String greeting;
 
-    public Client(String id, String fullName) {
+    private String city;
+
+    public Client(String id, String fullName, String city) {
         super();
         this.id = id;
         this.fullName = fullName;
+        this.city = city;
     }
 
     public String getId() {
